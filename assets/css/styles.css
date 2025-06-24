@@ -156,3 +156,50 @@ a.button:hover {
 #btnSubir:hover {
   transform: scale(1.1);
 }
+.personas-cargo {
+  padding: 40px 20px;
+  background-color: #F1F8E9;
+  text-align: center;
+  border-top: 3px solid #A5D6A7;
+}
+
+.personas-cargo h2 {
+  color: #2E7D32;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.cargo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.card-cargo {
+  background-color: #ffffff;
+  border: 2px solid #A5D6A7;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card-cargo:hover {
+  transform: translateY(-5px);
+}
+
+.card-cargo h3 {
+  color: #1B5E20;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 8px;
+}
+
+.card-cargo p {
+  color: #2E7D32;
+  margin: 0;
+  font-weight: bold;
+}
